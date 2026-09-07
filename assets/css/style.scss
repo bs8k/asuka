@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";   // Minimal の CSS を読み込む
+
+/* ここからあなたの CSS */
+body {
+  background: #111;
+}
