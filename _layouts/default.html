@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- Minimal テーマの CSS を読み込む（style.scss 経由） -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- 必要ならここに CSS / JS を追加していく -->
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}">
+  {% endif %}
+
+  {% if page.js %}
+  <script src="{{ page.js }}"></script>
+  {% endif %}
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <h1>{{ site.title }}</h1>
+      {% if site.description %}
+      <p>{{ site.description }}</p>
+      {% endif %}
+    </header>
+
+    <section>
+      {{ content }}
+    </section>
+
+    <footer>
+      <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
