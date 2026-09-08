@@ -4,24 +4,12 @@
 @import "{{ site.theme }}";
 
 /* ここからあなたの CSS */
-/*
-$h1color: red;
+
+$h1color: rebeccapurple;
 
 h1:first-of-type {
   background-color: $h1color;
   a {
     display: none;
   }
-}
-*/
-
-h1:first-of-type {
-  background-color: var(--h1color);
-  a {
-    display: none;
-  }
-}
-
-p {
-  color: var(--h1color);
 }
