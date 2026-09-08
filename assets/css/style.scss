@@ -21,3 +21,7 @@ h1:first-of-type {
     display: none;
   }
 }
+
+p {
+  color: var(--h1color);
+}
