@@ -9,5 +9,5 @@ title: test
 asdfghj
 
 <script>
-  document.querySelector('h1').style.color = 'blue';
+  document.querySelector('h1').style.backgroundColor = 'blue';
 </script>
