@@ -4,9 +4,10 @@
 @import "{{ site.theme }}";
 
 /* ここからあなたの CSS */
+$h1-color: lightblue;
+
 h1:first-of-type {
-  background-color: lightgreen;
-}
-h1:first-of-type a {
-  display: none;
+  background-color: $h1-color;
+  a {
+    display: none;
 }
