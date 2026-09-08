@@ -1,5 +1,5 @@
 ---
-title: はじめての GitHub Pages
+title: タイトル
 ---
 
 # ホームページへようこそ
