@@ -30,7 +30,7 @@ aaaa
 
 [次へ](next.html)
 
-![猫](images/cat.png)
+![猫](test1.jpg)
 
 - **太字** が書ける
 - *斜体* も書ける
