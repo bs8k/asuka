@@ -1,8 +1,12 @@
 ---
 ---
 
-@import "{{ site.theme }}";   // Minimal の CSS を読み込む
+@import "{{ site.theme }}";
 
 /* ここからあなたの CSS */
-body {
+h1:first-of-type {
+  background-color: lightgreen;
+}
+h1:first-of-type a {
+  display: none;
 }
