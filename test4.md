@@ -2,8 +2,6 @@
 title: test
 ---
 
-# ローカル
+# ローカル2
 
-<script>
-  alert("enter");
-</script>
+<script src="assets/js/main.js"></script>
