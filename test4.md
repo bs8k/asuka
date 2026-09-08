@@ -4,6 +4,6 @@ title: test
 
 # ローカル2
 
-<template style="--h1color: blue;"></template>
+<div style="--h1color: blue;"></div>
 
 asdfghj
