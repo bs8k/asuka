@@ -7,3 +7,7 @@ title: test
 <div style="--h1color: blue;"></div>
 
 asdfghj
+
+<script>
+  document.querySelector('h1').style.color = 'blue';
+</script>
