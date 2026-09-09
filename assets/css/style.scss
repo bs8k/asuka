@@ -14,41 +14,22 @@ h1:first-of-type {
   }
 }
 
-small#fcopy {
-  color: gray;
-}
-
-/*
-.scroll-images {
-  display: flex;
-  overflow-x: auto;
-  gap: 8px; /* 画像の間隔（任意） 
-}
-
-.scroll-images img {
-  flex-shrink: 0;
-  height: auto;
-  max-height: 200px; /* 必要ならサイズ調整 
-}
-*/
-
+/* 画像スクロール */
 .scroll-images {
   display: flex;
   overflow-x: auto;
   gap: 8px;
-  padding: auto 40px;
-  /* ここが核心：左右フェードを固定するマスク */
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
-mask-image: linear-gradient(to right,
-  transparent 0px,
-  black 20px,
-  black calc(100% - 20px),
-  transparent 100%
-);
+  padding: 0 20px;
+  /* 画像左右フェード */
+  -webkit-mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
+  img {
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
 }
 
-.scroll-images img {
-  height: auto;
-  flex-shrink: 0;
-  object-fit: contain;
+small#fcopy {
+  color: gray;
 }
