@@ -17,3 +17,15 @@ h1:first-of-type {
 small#fcopy {
   color: gray;
 }
+
+.scroll-images {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px; /* 画像の間隔（任意） */
+}
+
+.scroll-images img {
+  flex-shrink: 0;
+  height: auto;
+  max-height: 200px; /* 必要ならサイズ調整 */
+}
