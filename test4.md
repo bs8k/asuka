@@ -28,9 +28,7 @@ $$
 |---|---|
 | 1 | 2 |
 
+{: #fcopy}
 管理者
 
-<script>
-  document.querySelector('h1').style.backgroundColor = 'blue';
-</script>
-<script src="main.js"></script>
+<script src="assets/js/main.js"></script>
