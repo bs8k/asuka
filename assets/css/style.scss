@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* ここからあなたの CSS */
+/* ユーザーCSS */
 
 $h1color: rebeccapurple;
 
@@ -12,4 +12,8 @@ h1:first-of-type {
   a {
     display: none;
   }
+}
+
+small#fcopy {
+  color: gray;
 }
