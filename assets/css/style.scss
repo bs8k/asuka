@@ -22,13 +22,13 @@ small#fcopy {
 .scroll-images {
   display: flex;
   overflow-x: auto;
-  gap: 8px; /* 画像の間隔（任意） */
+  gap: 8px; /* 画像の間隔（任意） 
 }
 
 .scroll-images img {
   flex-shrink: 0;
   height: auto;
-  max-height: 200px; /* 必要ならサイズ調整 */
+  max-height: 200px; /* 必要ならサイズ調整 
 }
 */
 
