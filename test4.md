@@ -10,6 +10,17 @@ asdfghj
 
 {: .myimg}
 ![説明文](test1.jpg)
+![説明文](test1.jpg)
+![説明文](test1.jpg)
+![説明文](test1.jpg)
+![説明文](test1.jpg)
+
+{: .myimg}
+![説明文](test9.jpg)
+![説明文](test9.jpg)
+![説明文](test9.jpg)
+![説明文](test9.jpg)
+![説明文](test9.jpg)
 
 ::: {.note}
 ここは div.note として扱われるブロック
