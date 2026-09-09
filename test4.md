@@ -8,6 +8,8 @@ title: test
 
 asdfghj
 
+![説明文](test1.jpg){: .myimg}
+
 管理者
 
 <script>
