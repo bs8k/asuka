@@ -25,7 +25,7 @@ p.scroll-img {
   mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
   img {
     width: 100%;
-    max-width: 640px;
+    max-width: 480px;
     height: auto;
     flex-shrink: 0;
     object-fit: contain;
