@@ -8,26 +8,26 @@ title: test
 
 asdfghj
 
-{: .scroll-images}
-![説明文](test1.jpg)
-![説明文](test1.jpg)
-![説明文](test1.jpg)
-![説明文](test1.jpg)
-![説明文](test1.jpg)
+{: .scroll-img}
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
 
-{: .scroll-images}
-![説明文](test9.jpg)
-![説明文](test9.jpg)
-![説明文](test9.jpg)
-![説明文](test9.jpg)
-![説明文](test9.jpg)
+{: .scroll-img}
+![説明](test9.jpg)
+![説明](test9.jpg)
+![説明](test9.jpg)
+![説明](test9.jpg)
+![説明](test9.jpg)
 
-{: .scroll-images}
-![説明文](test1.jpg)
-![説明文](test9.jpg)
-![説明文](test1.jpg)
-![説明文](test8.jpg)
-![説明文](test9.jpg)
+{: .scroll-img}
+![説明](test1.jpg)
+![説明](test9.jpg)
+![説明](test1.jpg)
+![説明](test8.jpg)
+![説明](test9.jpg)
 
 ::: {.note}
 ここは div.note として扱われるブロック
