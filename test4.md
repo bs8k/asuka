@@ -4,23 +4,31 @@ title: test
 
 # ローカル2
 
-<div style="--h1color: blue;"></div>
+## これは空です
 
-asdfghj
-
-{: .scroll-img}
-![説明](test1.jpg)
-![説明](test1.jpg)
-![説明](test1.jpg)
-![説明](test1.jpg)
-![説明](test1.jpg)
+これは空の写真です。
 
 {: .scroll-img}
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
+![説明](test1.jpg)
+
+## これも空です
+
+これも空の写真です。
+
+{: .scroll-img}
 ![説明](test9.jpg)
 ![説明](test9.jpg)
 ![説明](test9.jpg)
 ![説明](test9.jpg)
 ![説明](test9.jpg)
+
+## これは木です
+
+これは木の写真ですよ。
 
 {: .scroll-img}
 ![説明](test1.jpg)
