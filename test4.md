@@ -22,6 +22,13 @@ asdfghj
 ![説明文](test9.jpg)
 ![説明文](test9.jpg)
 
+{: .scroll-images}
+![説明文](test1.jpg)
+![説明文](test9.jpg)
+![説明文](test1.jpg)
+![説明文](test8.jpg)
+![説明文](test9.jpg)
+
 ::: {.note}
 ここは div.note として扱われるブロック
 :::
