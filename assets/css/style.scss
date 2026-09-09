@@ -15,7 +15,7 @@ h1:first-of-type {
 }
 
 /* 画像スクロール */
-.scroll-images {
+p.scroll-img {
   display: flex;
   overflow-x: auto;
   gap: 8px;
@@ -24,6 +24,7 @@ h1:first-of-type {
   -webkit-mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
   img {
+    max-width: 640px;
     height: auto;
     flex-shrink: 0;
     object-fit: contain;
