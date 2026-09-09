@@ -8,14 +8,14 @@ title: test
 
 asdfghj
 
-{: .myimg}
+{: .scroll-images}
 ![説明文](test1.jpg)
 ![説明文](test1.jpg)
 ![説明文](test1.jpg)
 ![説明文](test1.jpg)
 ![説明文](test1.jpg)
 
-{: .myimg}
+{: .scroll-images}
 ![説明文](test9.jpg)
 ![説明文](test9.jpg)
 ![説明文](test9.jpg)
