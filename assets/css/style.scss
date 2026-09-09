@@ -40,28 +40,30 @@ small#fcopy {
   padding: 0 20px; /* フェード分の余白 */
 }
 
-/* 左フェード */
+/* 左フェード（固定） */
 .scroll-images::before {
   content: "";
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 20px;
   height: 100%;
   pointer-events: none;
   background: linear-gradient(to right, white, transparent);
+  z-index: 10;
 }
 
-/* 右フェード */
+/* 右フェード（固定） */
 .scroll-images::after {
   content: "";
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   width: 20px;
   height: 100%;
   pointer-events: none;
   background: linear-gradient(to left, white, transparent);
+  z-index: 10;
 }
 
 .scroll-images img {
