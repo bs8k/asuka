@@ -18,6 +18,7 @@ small#fcopy {
   color: gray;
 }
 
+/*
 .scroll-images {
   display: flex;
   overflow-x: auto;
@@ -28,4 +29,41 @@ small#fcopy {
   flex-shrink: 0;
   height: auto;
   max-height: 200px; /* 必要ならサイズ調整 */
+}
+*/
+
+.scroll-images {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  position: relative;
+  padding: 0 20px; /* フェード分の余白 */
+}
+
+/* 左フェード */
+.scroll-images::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to right, white, transparent);
+}
+
+/* 右フェード */
+.scroll-images::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, white, transparent);
+}
+
+.scroll-images img {
+  flex-shrink: 0;
 }
