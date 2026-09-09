@@ -36,34 +36,10 @@ small#fcopy {
   display: flex;
   overflow-x: auto;
   gap: 8px;
-  position: relative;
-  padding: 0 20px; /* フェード分の余白 */
-}
 
-/* 左フェード（固定） */
-.scroll-images::before {
-  content: "";
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 20px;
-  height: 100%;
-  pointer-events: none;
-  background: linear-gradient(to right, white, transparent);
-  z-index: 10;
-}
-
-/* 右フェード（固定） */
-.scroll-images::after {
-  content: "";
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 20px;
-  height: 100%;
-  pointer-events: none;
-  background: linear-gradient(to left, white, transparent);
-  z-index: 10;
+  /* ここが核心：左右フェードを固定するマスク */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
 }
 
 .scroll-images img {
