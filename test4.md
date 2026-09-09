@@ -8,6 +8,8 @@ title: test
 
 asdfghj
 
+管理者
+
 <script>
   document.querySelector('h1').style.backgroundColor = 'blue';
 </script>
