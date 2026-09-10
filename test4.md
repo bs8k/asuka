@@ -2,7 +2,7 @@
 title: test
 ---
 
-# ローカル2
+# ローカル23
 
 ## これは空です
 
@@ -22,9 +22,6 @@ title: test
 {: .scroll-img}
 ![説明](test9.jpg)
 ![説明](test9.jpg)
-![説明](test9.jpg)
-![説明](test9.jpg)
-![説明](test9.jpg)
 
 ## これは木です
 
@@ -34,20 +31,10 @@ title: test
 ![説明](test1.jpg)
 ![説明](test9.jpg)
 ![説明](test1.jpg)
-![説明](test8.jpg)
-![説明](test9.jpg)
-
-::: {.note}
-ここは div.note として扱われるブロック
-:::
 
 これは脚注付きの文章です[^1]
 
 [^1]: これが脚注の内容
-
-$$
-E = mc^2
-$$
 
 {: .mytable}
 | A | B |
