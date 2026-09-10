@@ -39,6 +39,7 @@ dialog {
   img {
     display: block;
     width: 100%;
+    min-width: 100vh;
     max-height: calc(100vh - 80px);
     object-fit: contain;
   }
