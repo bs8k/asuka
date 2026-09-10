@@ -23,3 +23,4 @@ Markdown では、こんなことができます。
 
 ```js
 console.log("こんにちは、GitHub Pages！");
+```
