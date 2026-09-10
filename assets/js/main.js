@@ -5,7 +5,7 @@ document.getElementById('fcopy').innerHTML = '<small>&copy;&#32;chinodigital</sm
 const viewer = document.getElementById("viewer");
 const viewerImg = document.getElementById("viewer-img");
 
-document.querySelectorAll(".thumb").forEach(img => {
+document.querySelectorAll("p.img").forEach(img => {
   img.onclick = () => {
     viewerImg.src = img.src;
     viewer.showModal();
