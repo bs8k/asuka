@@ -1,6 +1,5 @@
-document.querySelector('h1').style.backgroundColor = 'skyblue';
-//document.getElementById('fcopy').innerHTML = '<small>&copy;&#32;chinodigital</small>';
-document.body.insertAdjacentHTML('beforeend', '<p id="fcopy"><small>&copy;&#32;chinodigital</small></p>');
+// ヘッダー
+document.querySelector('h1').style.backgroundColor = 'tomato';
 
 // 画像ビューア表示
 const viewer = document.getElementById('viewer');
@@ -15,3 +14,6 @@ document.querySelectorAll('p img').forEach(img => {
 
 // 画像ビューア閉じる
 viewer.onclick = () => viewer.close();
+
+// フッター
+document.body.insertAdjacentHTML('beforeend', '<p id="fcopy"><small>&copy;&#32;chinodigital</small></p>');
