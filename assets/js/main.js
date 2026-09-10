@@ -1,8 +1,6 @@
 document.querySelector('h1').style.backgroundColor = 'skyblue';
 //document.getElementById('fcopy').innerHTML = '<small>&copy;&#32;chinodigital</small>';
-const firstDiv = document.querySelector('body > div');
-firstDiv.insertAdjacentHTML('beforeend', '<small>&copy;&#32;chinodigital</small>');
-//document.body.insertAdjacentHTML('beforeend', '<small>&copy;&#32;chinodigital</small>');
+document.body.insertAdjacentHTML('beforeend', '<p id="fcopy"><small>&copy;&#32;chinodigital</small></p>');
 
 // 画像ビューア表示
 const viewer = document.getElementById('viewer');
