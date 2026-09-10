@@ -57,4 +57,7 @@ $$
 {: #fcopy}
 管理者
 
+<dialog id="viewer">
+  <img id="viewer-img">
+</dialog>
 <script src="assets/js/main.js"></script>
