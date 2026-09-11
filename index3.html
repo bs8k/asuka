@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>点字</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f4f6f8;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 240px;
+      cursor: pointer;
+    }
+
+    .tenji-display {
+      font-size: 100px;
+      line-height: 1;
+      margin: 20px 0;
+      color: #333;
+      user-select: none;
+    }
+
+    .answer {
+      font-size: 40px;
+      font-weight: bold;
+      height: 50px;
+      margin-top: 20px;
+    }
+
+    .hint {
+      color: #777;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="card" class="card">
+    <h2></h2>
+
+    <div id="tenji" class="tenji-display">⠁</div>
+
+    <div id="answer" class="answer"></div>
+
+    <div class="hint"></div>
+  </div>
+
+  <script>
+    const tenjiList = [
+      '⠁', '⠃', '⠉', '⠋', '⠊', // あ行
+      '⠡', '⠣', '⠩', '⠫', '⠪', // か行
+      '⠱', '⠳', '⠹', '⠻', '⠺', // さ行
+      '⠕', '⠗', '⠝', '⠟', '⠞', // た行
+      '⠅', '⠇', '⠍', '⠏', '⠎', // な行
+      '⠥', '⠧', '⠭', '⠯', '⠮', // は行
+      '⠵', '⠷', '⠽', '⠿', '⠾', // ま行
+      '⠌', '⠬', '⠜',           // や行
+      '⠑', '⠓', '⠙', '⠛', '⠚', // ら行
+      '⠄', '⠔', '⠴', '⠂', '⠒'  // わ行
+    ];
+
+    const hiraganaList = [
+      'あ', 'い', 'う', 'え', 'お',
+      'か', 'き', 'く', 'け', 'こ',
+      'さ', 'し', 'す', 'せ', 'そ',
+      'た', 'ち', 'つ', 'て', 'と',
+      'な', 'に', 'ぬ', 'ね', 'の',
+      'は', 'ひ', 'ふ', 'へ', 'ほ',
+      'ま', 'み', 'む', 'め', 'も',
+      'や', 'ゆ', 'よ',
+      'ら', 'り', 'る', 'れ', 'ろ',
+      'わ', 'を', 'ん', 'っ', 'ー'
+    ];
+
+    let currentIndex = 0;
+
+    const cardDisplay = document.getElementById('card');
+    const tenjiDisplay = document.getElementById('tenji');
+    const answerDisplay = document.getElementById('answer');
+
+    setRandomQuestion();
+
+    cardDisplay.addEventListener('click', () => {
+      // 答えを表示
+      answerDisplay.textContent = hiraganaList[currentIndex];
+
+      // ○秒後に答えを消して、次の問題へ
+      setTimeout(() => {
+        answerDisplay.textContent = '';
+        setRandomQuestion();
+      }, 500);
+    });
+
+    function setRandomQuestion() {
+      currentIndex = Math.floor(Math.random() * tenjiList.length);
+      tenjiDisplay.textContent = tenjiList[currentIndex];
+      answerDisplay.textContent = '';
+    }
+  </script>
+</body>
+</html>
