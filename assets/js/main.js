@@ -9,14 +9,14 @@ document.querySelectorAll('p img').forEach(img => {
   img.onclick = () => {
     viewerImg.src = img.src;
     viewer.showModal();
-    document.body.style.overflow = 'hidden';
+//    document.body.style.overflow = 'hidden';
   };
 });
 
 // 画像ビューア閉じる
 viewer.onclick = () => {
   viewer.close();
-  document.body.style.overflow = '';
+//  document.body.style.overflow = '';
 };
 
 // フッター
