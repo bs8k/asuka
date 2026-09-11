@@ -25,7 +25,7 @@ p.scroll-img {
   overflow-x: auto;
   gap: 8px;
   padding: 0 20px;
-  /* 画像左右フェード */
+  /* 左右フェード */
   -webkit-mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
   mask-image: linear-gradient(to right, transparent 0, black 20px, black calc(100% - 20px), transparent 100%);
   img {
@@ -38,7 +38,7 @@ p.scroll-img {
 }
 
 /* 画像ビューアー */
-dialog {
+dialog#viewer {
   width: fit-content;
   img {
     display: block;
