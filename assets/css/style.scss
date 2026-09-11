@@ -7,6 +7,11 @@
 
 $h1color: rebeccapurple;
 
+html {
+  scrollbar-gutter: stable;
+}
+
+/* ヘッダー */
 h1:first-of-type {
   background-color: $h1color;
   a {
@@ -43,6 +48,7 @@ dialog {
   }
 }
 
+/* フッター */
 p#fcopy {
   text-align: center;
   color: gray;
