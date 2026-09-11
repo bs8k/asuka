@@ -13,14 +13,9 @@ document.querySelectorAll('p img').forEach(img => {
   };
 });
 
-viewer.addEventListener('close', () => {
-  document.body.style.overflow = '';
-});
-
 // 画像ビューア閉じる
-viewer.onclick = () => {
-  viewer.close();
-};
+viewer.onclick = () => viewer.close();
+viewer.addEventListener('close', () => document.body.style.overflow = '');
 
 // フッター
 document.body.insertAdjacentHTML('beforeend', '<p id="fcopy"><small>&copy;&#32;chinodigital</small></p>');
