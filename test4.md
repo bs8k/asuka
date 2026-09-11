@@ -30,9 +30,9 @@ title: test
 これは木の写真ですよ。
 
 {: .scroll-img}
-![説明](test1.jpg)
-![説明](test9.jpg)
-![説明](test1.jpg)
+![説明](test5.jpg)
+![説明](test6.jpg)
+![説明](test5.jpg)
 
 これは脚注付きの文章です[^1]
 
